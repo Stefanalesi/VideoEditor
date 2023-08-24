@@ -14,24 +14,21 @@
 <?import javafx.scene.media.MediaView?>
 
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="884.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0"
+            prefWidth="884.0" xmlns="http://javafx.com/javafx/20.0.1">
    <top>
-      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-        <items>
-          <Button mnemonicParsing="false" text="Button" />
-        </items>
-      </ToolBar>
+       <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <Button mnemonicParsing="false" text="Button"/>
+       </ToolBar>
    </top>
    <center>
-      <VBox alignment="BOTTOM_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="329.0" prefWidth="606.0">
-         <children>
-            <MediaView fitHeight="235.0" fitWidth="350.0" />
-            <ProgressBar prefHeight="18.0" prefWidth="351.0" progress="0.0" />
-            <Button mnemonicParsing="false" prefHeight="0.0" prefWidth="52.0" text="Button" />
-            <Button alignment="BOTTOM_CENTER" mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
-         </children>
-      </VBox>
+       <VBox alignment="BOTTOM_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="329.0" prefWidth="606.0">
+           <MediaView fitHeight="235.0" fitWidth="350.0"/>
+           <ProgressBar prefHeight="18.0" prefWidth="351.0" progress="0.0"/>
+           <Button mnemonicParsing="false" prefHeight="0.0" prefWidth="52.0" text="Button"/>
+           <Button alignment="BOTTOM_CENTER" mnemonicParsing="false" text="Button"/>
+           <Button mnemonicParsing="false" text="Button"/>
+       </VBox>
    </center>
    <left>
       <ListView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
@@ -39,32 +36,24 @@
    <right>
       <Accordion BorderPane.alignment="CENTER">
         <panes>
-          <TitledPane animated="false" text="untitled 1">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-            </content>
-          </TitledPane>
-          <TitledPane animated="false" text="untitled 2">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-            </content>
-          </TitledPane>
-          <TitledPane animated="false" text="untitled 3">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-            </content>
-          </TitledPane>
+            <TitledPane animated="false" text="untitled 1">
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+            </TitledPane>
+            <TitledPane animated="false" text="untitled 2">
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+            </TitledPane>
+            <TitledPane animated="false" text="untitled 3">
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+            </TitledPane>
         </panes>
       </Accordion>
    </right>
    <bottom>
-      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <ScrollPane prefHeight="100.0" prefWidth="518.0" />
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
-         </children>
-      </HBox>
+       <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <ScrollPane prefHeight="100.0" prefWidth="518.0"/>
+           <Button mnemonicParsing="false" text="Button"/>
+           <Button mnemonicParsing="false" text="Button"/>
+           <Button mnemonicParsing="false" text="Button"/>
+       </HBox>
    </bottom>
 </BorderPane>
