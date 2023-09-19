@@ -1,2 +1,2 @@
 # VideoEditor
-asfhasga
+JavaFX Video Editor Project (Diplomarbait aber net wikli)
